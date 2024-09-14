@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button id="start" onclick="start()">Start</button> -->
+    <h1>GUESS THE NUMBER !</h1>
+    <h2>( guess the number between 1 to 100 )</h2>
+    <hr />
+    <marquee behavior="" direction=""> powered by ( Mohsin.io ) | Visit our github for more projects ! | github.com/mohsinalimughal</marquee>
+    <div class="game">
+      <div class="main">
+        <input id="input-number" type="number" />
+        <button id="guess-btn" onclick="game()">Guess</button>
+      </div>
+      <div class="info-box">
+        <div id="result">start guessig...</div>
+        <div id="attempts">ateempts = 0</div>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
